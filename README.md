@@ -27,7 +27,9 @@ Green, A., Khankhanian, P., & Baranzini, S. E. (2017). Systematic integration of
 biomedical knowledge prioritizes drugs for repurposing. eLife, 6, e26726. (https://doi.org/10.7554/eLife.26726)
 
 And load them using: ```sudo docker-compose up -d``` to open Docker and execute this file: ```benchmark_data/benchmark/loading_benchmark_data.ipynb```  
-which is mostly taken from https://github.com/arselzer/spark-eval.
+which is mostly taken from the code at https://github.com/arselzer/spark-eval of the paper:
+Lanzinger, M., Pichler, R., & Selzer, A. (2024). Avoiding materialisation for guarded
+aggregate queries. arXiv:2406.17076.
 
 ## 2. Use data augmentation to create all queries we use
 The filter augmentation was done by hand, by executing ```data_augmentation.ipynb``` the aggregate augmentation is done and all queries we use are saved in ```scala_commands_augment_filter_agg.txt```.
